@@ -43,6 +43,7 @@
                 </p>
               </a>
             </div>
+
             <div class="column has-text-centered">
               <a href="//muensterturmlauf-ulm.gelungen.es">
                 <img
@@ -73,6 +74,7 @@
                 </p>
               </a>
             </div>
+
             <div class="column has-text-centered">
               <a href="//www.fire-trail-nesselwang.de">
                 <img
