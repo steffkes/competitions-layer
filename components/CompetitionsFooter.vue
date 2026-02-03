@@ -62,20 +62,6 @@
         <div class="column competitions">
           <div class="columns is-mobile">
             <div class="column has-text-centered">
-              <a href="//www.schachmatt-ulm.de">
-                <img
-                  src="../assets/competitions/schachmatt-ulm.svg"
-                  alt="Logo Schachmatt Ulm"
-                />
-                <p class="has-text-centered">
-                  <span>Schachmatt</span>
-                  <span>Ulm</span>
-                  <span class="tag mt-2">Februar '27</span>
-                </p>
-              </a>
-            </div>
-
-            <div class="column has-text-centered">
               <a href="//www.fire-trail-nesselwang.de">
                 <img
                   src="../assets/competitions/fire-trail-nesselwang.svg"
@@ -85,6 +71,20 @@
                   <span>Fire Trail</span>
                   <span>Nesselwang</span>
                   <span class="tag mt-2">Oktober '26</span>
+                </p>
+              </a>
+            </div>
+
+            <div class="column has-text-centered">
+              <a href="//www.schachmatt-ulm.de">
+                <img
+                  src="../assets/competitions/schachmatt-ulm.svg"
+                  alt="Logo Schachmatt Ulm"
+                />
+                <p class="has-text-centered">
+                  <span>Schachmatt</span>
+                  <span>Ulm</span>
+                  <span class="tag mt-2">Februar '27</span>
                 </p>
               </a>
             </div>
