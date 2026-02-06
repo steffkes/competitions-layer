@@ -94,7 +94,11 @@
 
       <p class="competitions has-text-grey-light has-text-right">
         … und alles begann 2023 mit dem
-        <a href="//www.schanzenlauf-oberstdorf.de" class="has-text-grey-light">
+        <a
+          href="//www.schanzenlauf-oberstdorf.de"
+          class="has-text-grey-light"
+          style="display: inline-block"
+        >
           <img
             src="../assets/competitions/schanzenlauf-oberstdorf.svg"
             alt="Logo Schanzenlauf Oberstdorf"
