@@ -31,7 +31,7 @@
         <div class="column competitions">
           <div class="columns is-mobile">
             <div class="column has-text-centered">
-              <a href="//munich-sunrise.gelungen.es">
+              <a href="//www.munich-sunrise.de">
                 <img
                   src="../assets/competitions/munich-sunrise.svg"
                   alt="Logo Munich Sunrise"
