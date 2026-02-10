@@ -11,7 +11,7 @@
               <p>Fragen? Anregungen? Presse. Sponsoring.</p>
               <p class="mt-4">
                 <strong>Stefan Matheis</strong><br />
-                <a :href="'mailto:' + mail">✉️ {{ mail }}</a
+                <a :href="'mailto:' + mailAddress">✉️ {{ mailAddress }}</a
                 ><br />
                 <a href="tel:004916097048114">📞 +49 160 970 48 114</a>
               </p>
@@ -112,7 +112,11 @@
 </template>
 
 <script setup>
-defineProps(["mail"]);
+const { mail, event } = defineProps(["event", "mail"]);
+
+const mailAddress = computed(() =>
+  (event?.organizer.email ?? mail).replace("mailto:", ""),
+);
 </script>
 
 <style scoped>
