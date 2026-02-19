@@ -92,21 +92,39 @@
         </div>
       </div>
 
-      <p class="competitions has-text-grey-light has-text-right">
-        … und alles begann 2023 mit dem
-        <a
-          href="//www.schanzenlauf-oberstdorf.de"
-          class="has-text-grey-light"
-          style="display: inline-block"
-        >
-          <img
-            src="../assets/competitions/schanzenlauf-oberstdorf.svg"
-            alt="Logo Schanzenlauf Oberstdorf"
-            style="height: 16px"
-          />
-          Schanzenlauf Oberstdorf</a
-        >
-      </p>
+      <div class="columns is-flex-direction-row-reverse">
+        <div class="column">
+          <p class="competitions has-text-grey-light has-text-right">
+            … und alles begann 2023 mit dem
+            <a
+              href="//www.schanzenlauf-oberstdorf.de"
+              style="color: inherit; display: inline-block"
+            >
+              <img
+                src="../assets/competitions/schanzenlauf-oberstdorf.svg"
+                alt="Logo Schanzenlauf Oberstdorf"
+                style="height: 16px"
+              />
+              Schanzenlauf Oberstdorf</a
+            >
+          </p>
+        </div>
+        <div class="column">
+          <p class="competitions has-text-grey-light">
+            Gelistet bei
+            <a
+              href="//firefighter-competitions.gelungen.es"
+              style="color: inherit; display: inline-block"
+            >
+              <img
+                src="../assets/firefighter-competitions.svg"
+                style="height: 16px"
+              />
+              Firefighter Competitions</a
+            >
+          </p>
+        </div>
+      </div>
     </div>
   </footer>
 </template>
