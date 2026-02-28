@@ -111,7 +111,7 @@
           </p>
         </div>
         <div class="column">
-          <p class="competitions has-text-grey-light">
+          <p class="competitions has-text-grey-light has-text-right-mobile">
             Gelistet bei
             <a
               href="//firefighter-competitions.gelungen.es"
