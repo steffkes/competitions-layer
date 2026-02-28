@@ -36,10 +36,14 @@
                   src="../assets/competitions/munich-sunrise.svg"
                   alt="Logo Munich Sunrise"
                 />
-                <p class="has-text-centered">
+                <p>
                   <span>Munich</span>
                   <span>Sunrise</span>
+                </p>
+                <p>
                   <span class="tag mt-2 is-info">Sa, 25.07.26</span>
+                </p>
+                <p>
                   <span class="tag mt-1 is-info">Early Bird</span>
                 </p>
               </a>
@@ -68,9 +72,11 @@
                   src="../assets/competitions/fire-trail-nesselwang.svg"
                   alt="Logo Fire Trail Nesselwang"
                 />
-                <p class="has-text-centered">
+                <p>
                   <span>Fire Trail</span>
                   <span>Nesselwang</span>
+                </p>
+                <p>
                   <span class="tag mt-2">Sa, 10.10.26</span>
                 </p>
               </a>
@@ -82,9 +88,11 @@
                   src="../assets/competitions/schachmatt-ulm.svg"
                   alt="Logo Schachmatt Ulm"
                 />
-                <p class="has-text-centered">
+                <p>
                   <span>Schachmatt</span>
                   <span>Ulm</span>
+                </p>
+                <p>
                   <span class="tag mt-2">Februar '27</span>
                 </p>
               </a>
