@@ -39,7 +39,8 @@
                 <p class="has-text-centered">
                   <span>Munich</span>
                   <span>Sunrise</span>
-                  <span class="tag mt-2 is-info">Early Bird</span>
+                  <span class="tag mt-2 is-info">Sa, 25.07.26</span>
+                  <span class="tag mt-1 is-info">Early Bird</span>
                 </p>
               </a>
             </div>
