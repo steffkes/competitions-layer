@@ -31,6 +31,22 @@
         <div class="column competitions">
           <div class="columns is-mobile">
             <div class="column has-text-centered">
+              <a href="//muensterturmlauf-ulm.gelungen.es">
+                <img
+                  src="../assets/competitions/muensterturmlauf-ulm.svg"
+                  alt="Logo Münsterturmlauf Ulm"
+                />
+                <p>
+                  <span>Münsterturmlauf</span>
+                  <span>Ulm</span>
+                </p>
+                <p>
+                  <span class="tag mt-2 is-success">Fr, 22.05.26</span>
+                </p>
+              </a>
+            </div>
+
+            <div class="column has-text-centered">
               <a href="//www.munich-sunrise.de">
                 <img
                   src="../assets/competitions/munich-sunrise.svg"
@@ -45,20 +61,6 @@
                 </p>
                 <p>
                   <span class="tag mt-1 is-info">Early Bird</span>
-                </p>
-              </a>
-            </div>
-
-            <div class="column has-text-centered">
-              <a href="//muensterturmlauf-ulm.gelungen.es">
-                <img
-                  src="../assets/competitions/muensterturmlauf-ulm.svg"
-                  alt="Logo Münsterturmlauf Ulm"
-                />
-                <p class="has-text-centered">
-                  <span>Münsterturmlauf</span>
-                  <span>Ulm</span>
-                  <span class="tag mt-2 is-success">Fr, 22.05.26</span>
                 </p>
               </a>
             </div>
