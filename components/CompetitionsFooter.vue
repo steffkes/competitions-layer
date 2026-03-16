@@ -57,10 +57,7 @@
                   <span>Sunrise</span>
                 </p>
                 <p>
-                  <span class="tag mt-2 is-info">Sa, 25.07.26</span>
-                </p>
-                <p>
-                  <span class="tag mt-1 is-info">Early Bird</span>
+                  <span class="tag mt-2 is-success">Sa, 25.07.26</span>
                 </p>
               </a>
             </div>
