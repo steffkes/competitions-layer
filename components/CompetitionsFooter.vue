@@ -76,7 +76,7 @@
                   <span>Nesselwang</span>
                 </p>
                 <p>
-                  <span class="tag mt-2">Sa, 10.10.26</span>
+                  <span class="tag mt-2 is-success">Sa, 10.10.26</span>
                 </p>
               </a>
             </div>
