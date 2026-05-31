@@ -1,4 +1,18 @@
 <template>
+  <div
+    class="mb-0 notification is-link is-light p-0"
+    style="position: inherit"
+  >
+    <a
+      href="http://eskalation.gelungen.es"
+      class="is-block p-5"
+      style="text-decoration: none"
+    >
+      <strong>Eskalation &middot; Rise Against the Machine</strong>: In Bewegung
+      war die Treppe bisher nie!</a
+    >
+  </div>
+
   <footer class="footer">
     <div class="container is-max-desktop">
       <div class="columns">
