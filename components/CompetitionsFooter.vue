@@ -1,12 +1,8 @@
 <template>
-  <div
-    class="mb-0 notification is-link is-light p-0"
-    style="position: inherit"
-  >
+  <div class="has-background-black">
     <a
       href="http://eskalation.gelungen.es"
-      class="is-block p-5"
-      style="text-decoration: none"
+      class="is-block p-5 has-text-white-bis"
     >
       <strong>Eskalation &middot; Rise Against the Machine</strong>: In Bewegung
       war die Treppe bisher nie!</a
