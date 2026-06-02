@@ -1,12 +1,16 @@
 <template>
   <div class="has-background-black">
-    <a
-      href="http://eskalation.gelungen.es"
-      class="is-block p-5 has-text-white-bis"
-    >
-      <strong>Eskalation &middot; Rise Against the Machine</strong>: In Bewegung
-      war die Treppe bisher nie!</a
-    >
+    <div class="container is-max-desktop">
+      <a
+        href="http://eskalation.gelungen.es"
+        class="is-block p-5 has-text-white-bis"
+      >
+        <strong>Eskalation &middot; Rise Against the Machine</strong>:
+        <span style="display: inline-block"
+          >In Bewegung war die Treppe bisher nie!</span
+        ></a
+      >
+    </div>
   </div>
 
   <footer class="footer">
