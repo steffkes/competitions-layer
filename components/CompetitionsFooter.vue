@@ -41,7 +41,131 @@
         </div>
       </div>
 
-      <div class="columns">
+      <div class="is-hidden-desktop mt-6 mb-6">
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <a href="//www.munich-sunrise.de">
+                <img
+                  src="../assets/competitions/munich-sunrise.svg"
+                  alt="Logo Munich Sunrise"
+              /></a>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <a href="//www.munich-sunrise.de" style="display: block"
+                >Munich Sunrise</a
+              >
+              <span class="tag mt-1 is-success">Sa, 25.07.26</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <a href="//www.fire-trail-nesselwang.de">
+                <img
+                  src="../assets/competitions/fire-trail-nesselwang.svg"
+                  alt="Logo Fire Trail Nesselwang"
+              /></a>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <a href="//www.fire-trail-nesselwang.de" style="display: block"
+                >Fire Trail Nesselwang</a
+              >
+              <span class="tag mt-1 is-success">Sa, 10.10.26</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <a href="//www.schachmatt-ulm.de">
+                <img
+                  src="../assets/competitions/schachmatt-ulm.svg"
+                  alt="Logo Schachmatt Ulm"
+              /></a>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <a href="//www.schachmatt-ulm.de" style="display: block"
+                >Schachmatt Ulm</a
+              >
+              <span class="tag mt-1">Februar '27</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <a href="//www.fire-trail-immenstadt.de">
+                <img
+                  src="../assets/competitions/fire-trail-nesselwang.svg"
+                  alt="Logo Fire Trail Nesselwang"
+              /></a>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <a href="//www.fire-trail-immenstadt.de" style="display: block"
+                >Fire Trail Immenstadt</a
+              >
+              <span class="tag mt-1">Mai '27</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <a href="//muensterturmlauf-ulm.gelungen.es">
+                <img
+                  src="../assets/competitions/muensterturmlauf-ulm.svg"
+                  alt="Logo Münsterturmlauf Ulm"
+              /></a>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <a
+                href="//muensterturmlauf-ulm.gelungen.es"
+                style="display: block"
+                >Münsterturmlauf Ulm</a
+              >
+              <span class="tag mt-1">Mai '27</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <a href="//www.schachmatt-mannheim.de">
+                <img
+                  src="../assets/competitions/schachmatt-ulm.svg"
+                  alt="Logo Schachmatt Ulm"
+              /></a>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <a href="//www.schachmatt-mannheim.de" style="display: block"
+                >Schachmatt Mannheim</a
+              >
+              <span class="tag mt-1">Irgendwann '27</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="is-hidden-touch columns">
         <div class="column competitions">
           <div class="columns is-mobile">
             <div class="column has-text-centered">
