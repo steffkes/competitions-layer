@@ -165,77 +165,72 @@
         </article>
       </div>
 
-      <div class="is-hidden-touch columns">
-        <div class="column competitions">
-          <div class="columns is-mobile">
-            <div class="column has-text-centered">
-              <a href="//www.munich-sunrise.de">
-                <img
-                  src="../assets/competitions/munich-sunrise.svg"
-                  alt="Logo Munich Sunrise"
-                />
-                <p>
-                  <span>Munich</span>
-                  <span>Sunrise</span>
-                </p>
-                <p>
-                  <span class="tag mt-2 is-success">Sa, 25.07.26</span>
-                </p>
-              </a>
-            </div>
+      <div class="is-hidden-touch columns competitions">
 
-            <div class="column has-text-centered">
-              <a href="//www.fire-trail-nesselwang.de">
-                <img
-                  src="../assets/competitions/fire-trail-nesselwang.svg"
-                  alt="Logo Fire Trail Nesselwang"
-                />
-                <p>
-                  <span>Fire Trail</span>
-                  <span>Nesselwang</span>
-                </p>
-                <p>
-                  <span class="tag mt-2 is-success">Sa, 10.10.26</span>
-                </p>
-              </a>
-            </div>
-          </div>
+        <div class="column has-text-centered">
+          <a href="//www.munich-sunrise.de">
+            <img
+              src="../assets/competitions/munich-sunrise.svg"
+              alt="Logo Munich Sunrise"
+            />
+            <p>
+              <span>Munich</span>
+              <span>Sunrise</span>
+            </p>
+            <p>
+              <span class="tag mt-2 is-success">Sa, 25.07.26</span>
+            </p>
+          </a>
         </div>
-        <div class="column competitions">
-          <div class="columns is-mobile">
-            <div class="column has-text-centered">
-              <a href="//www.schachmatt-ulm.de">
-                <img
-                  src="../assets/competitions/schachmatt-ulm.svg"
-                  alt="Logo Schachmatt Ulm"
-                />
-                <p>
-                  <span>Schachmatt</span>
-                  <span>Ulm</span>
-                </p>
-                <p>
-                  <span class="tag mt-2">Februar '27</span>
-                </p>
-              </a>
-            </div>
 
-            <div class="column has-text-centered">
-              <a href="//muensterturmlauf-ulm.gelungen.es">
-                <img
-                  src="../assets/competitions/muensterturmlauf-ulm.svg"
-                  alt="Logo Münsterturmlauf Ulm"
-                />
-                <p>
-                  <span>Münsterturmlauf</span>
-                  <span>Ulm</span>
-                </p>
-                <p>
-                  <span class="tag mt-2">Mai '27</span>
-                </p>
-              </a>
-            </div>
-          </div>
+        <div class="column has-text-centered">
+          <a href="//www.fire-trail-nesselwang.de">
+            <img
+              src="../assets/competitions/fire-trail-nesselwang.svg"
+              alt="Logo Fire Trail Nesselwang"
+            />
+            <p>
+              <span>Fire Trail</span>
+              <span>Nesselwang</span>
+            </p>
+            <p>
+              <span class="tag mt-2 is-success">Sa, 10.10.26</span>
+            </p>
+          </a>
         </div>
+
+        <div class="column has-text-centered">
+          <a href="//www.schachmatt-ulm.de">
+            <img
+              src="../assets/competitions/schachmatt-ulm.svg"
+              alt="Logo Schachmatt Ulm"
+            />
+            <p>
+              <span>Schachmatt</span>
+              <span>Ulm</span>
+            </p>
+            <p>
+              <span class="tag mt-2">Februar '27</span>
+            </p>
+          </a>
+        </div>
+
+        <div class="column has-text-centered">
+          <a href="//muensterturmlauf-ulm.gelungen.es">
+            <img
+              src="../assets/competitions/muensterturmlauf-ulm.svg"
+              alt="Logo Münsterturmlauf Ulm"
+            />
+            <p>
+              <span>Münsterturmlauf</span>
+              <span>Ulm</span>
+            </p>
+            <p>
+              <span class="tag mt-2">Mai '27</span>
+            </p>
+          </a>
+        </div>
+
       </div>
 
       <div class="columns is-flex-direction-row-reverse">
