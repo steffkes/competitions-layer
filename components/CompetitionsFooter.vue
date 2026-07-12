@@ -216,6 +216,22 @@
         </div>
 
         <div class="column has-text-centered">
+          <a href="//www.fire-trail-immenstadt.de">
+            <img
+              src="../assets/competitions/fire-trail-nesselwang.svg"
+              alt="Logo Fire Trail Nesselwang"
+            />
+            <p>
+              <span>Fire Trail</span>
+              <span>Immenstadt</span>
+            </p>
+            <p>
+              <span class="tag mt-2">Mai '27</span>
+            </p>
+          </a>
+        </div>
+
+        <div class="column has-text-centered">
           <a href="//muensterturmlauf-ulm.gelungen.es">
             <img
               src="../assets/competitions/muensterturmlauf-ulm.svg"
@@ -227,6 +243,22 @@
             </p>
             <p>
               <span class="tag mt-2">Mai '27</span>
+            </p>
+          </a>
+        </div>
+
+        <div class="column has-text-centered">
+          <a href="//www.schachmatt-mannheim.de">
+            <img
+              src="../assets/competitions/schachmatt-ulm.svg"
+              alt="Logo Schachmatt Ulm"
+            />
+            <p>
+              <span>Schachmatt</span>
+              <span>Mannheim</span>
+            </p>
+            <p>
+              <span class="tag mt-2">Irgendwann '27</span>
             </p>
           </a>
         </div>
