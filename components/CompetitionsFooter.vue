@@ -45,26 +45,6 @@
         <article class="media">
           <figure class="media-left">
             <p class="image is-64x64">
-              <a href="//www.munich-sunrise.de">
-                <img
-                  src="../assets/competitions/munich-sunrise.svg"
-                  alt="Logo Munich Sunrise"
-              /></a>
-            </p>
-          </figure>
-          <div class="media-content">
-            <div class="content">
-              <a href="//www.munich-sunrise.de" style="display: block"
-                >Munich Sunrise</a
-              >
-              <span class="tag mt-1 is-success">Sa, 25.07.26</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="media">
-          <figure class="media-left">
-            <p class="image is-64x64">
               <a href="//www.fire-trail-nesselwang.de">
                 <img
                   src="../assets/competitions/fire-trail-nesselwang.svg"
@@ -163,26 +143,29 @@
             </div>
           </div>
         </article>
+
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <a href="//www.munich-sunrise.de">
+                <img
+                  src="../assets/competitions/munich-sunrise.svg"
+                  alt="Logo Munich Sunrise"
+              /></a>
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="content">
+              <a href="//www.munich-sunrise.de" style="display: block"
+                >Munich Sunrise</a
+              >
+              <span class="tag mt-1">Auch wieder '27</span>
+            </div>
+          </div>
+        </article>
       </div>
 
       <div class="is-hidden-touch columns competitions">
-
-        <div class="column has-text-centered">
-          <a href="//www.munich-sunrise.de">
-            <img
-              src="../assets/competitions/munich-sunrise.svg"
-              alt="Logo Munich Sunrise"
-            />
-            <p>
-              <span>Munich</span>
-              <span>Sunrise</span>
-            </p>
-            <p>
-              <span class="tag mt-2 is-success">Sa, 25.07.26</span>
-            </p>
-          </a>
-        </div>
-
         <div class="column has-text-centered">
           <a href="//www.fire-trail-nesselwang.de">
             <img
@@ -263,6 +246,21 @@
           </a>
         </div>
 
+        <div class="column has-text-centered">
+          <a href="//www.munich-sunrise.de">
+            <img
+              src="../assets/competitions/munich-sunrise.svg"
+              alt="Logo Munich Sunrise"
+            />
+            <p>
+              <span>Munich</span>
+              <span>Sunrise</span>
+            </p>
+            <p>
+              <span class="tag mt-2">Auch wieder '27</span>
+            </p>
+          </a>
+        </div>
       </div>
 
       <div class="columns is-flex-direction-row-reverse">
