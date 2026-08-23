@@ -119,7 +119,7 @@
                 style="display: block"
                 >Münsterturmlauf Ulm</a
               >
-              <span class="tag mt-1">Mai '27</span>
+              <span class="tag mt-1 is-info">Sa, 19.06.27</span>
             </div>
           </div>
         </article>
@@ -225,7 +225,7 @@
               <span>Ulm</span>
             </p>
             <p>
-              <span class="tag mt-2">Mai '27</span>
+              <span class="tag mt-2 is-info">Sa, 19.06.27</span>
             </p>
           </a>
         </div>
