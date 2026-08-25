@@ -1,19 +1,5 @@
 <template>
-  <div class="has-background-black">
-    <div class="container is-max-desktop">
-      <a
-        href="http://eskalation.gelungen.es"
-        class="is-block p-5 has-text-white-bis"
-      >
-        <strong>Eskalation &middot; Rise Against the Machine</strong>:
-        <span style="display: inline-block"
-          >In Bewegung war die Treppe bisher nie!</span
-        ></a
-      >
-    </div>
-  </div>
-
-  <footer class="footer">
+  <footer class="footer pt-5 pb-5">
     <div class="container is-max-desktop">
       <div class="columns">
         <div class="column">
@@ -40,8 +26,26 @@
           </div>
         </div>
       </div>
+    </div>
+  </footer>
 
-      <div id="events" class="grid is-row-gap-6 my-6">
+  <div class="has-background-black">
+    <div class="container is-max-desktop">
+      <a
+        href="http://eskalation.gelungen.es"
+        class="is-block p-5 has-text-white-bis"
+      >
+        <strong>Eskalation &middot; Rise Against the Machine</strong>:
+        <span style="display: inline-block"
+          >In Bewegung war die Treppe bisher nie!</span
+        ></a
+      >
+    </div>
+  </div>
+
+  <footer class="footer pt-5">
+    <div class="container is-max-desktop">
+      <div id="events" class="grid is-row-gap-6 mb-6">
         <div class="cell has-text-centered" style="justify-self: center">
           <a href="//www.fire-trail-nesselwang.de">
             <figure class="image is-128x128">
