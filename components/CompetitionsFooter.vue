@@ -57,7 +57,7 @@
             <span class="tag mt-1 is-success">Sa, 10.10.26</span>
           </div>
           <div class="cell has-text-centered" style="justify-self: center">
-            <a href="//www.fire-trail-nesselwang.de">
+            <a href="//www.schachmatt-ulm.de">
               <figure class="image is-128x128">
                 <img
                   src="../assets/competitions/schachmatt-ulm.svg"
