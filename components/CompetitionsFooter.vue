@@ -24,19 +24,7 @@
     </section>
   </footer>
 
-  <div class="has-background-black">
-    <div class="container is-max-desktop">
-      <a
-        href="http://eskalation.gelungen.es"
-        class="is-block p-5 has-text-white-bis"
-      >
-        <strong>Eskalation &middot; Rise Against the Machine</strong>:
-        <span style="display: inline-block"
-          >In Bewegung war die Treppe bisher nie!</span
-        ></a
-      >
-    </div>
-  </div>
+  <div class="trenner" aria-hidden="true"></div>
 
   <footer class="footer p-0">
     <section class="section">
@@ -156,6 +144,10 @@ const mailAddress = computed(() =>
 </script>
 
 <style scoped>
+.trenner {
+  height: 2px;
+  background: #dbdbdb;
+}
 #events .name span {
   display: block;
 }
