@@ -42,89 +42,20 @@
     <section class="section">
       <div class="container is-max-desktop">
         <div id="events" class="grid is-row-gap-6 mb-6">
-          <div class="cell has-text-centered" style="justify-self: center">
-            <a href="//www.fire-trail-nesselwang.de">
+          <div
+            v-for="c in competitions"
+            :key="c.name.join(' ')"
+            class="cell has-text-centered"
+            style="justify-self: center"
+          >
+            <component :is="c.url ? 'a' : 'div'" :href="c.url" class="name">
               <figure class="image is-128x128">
-                <img
-                  src="../assets/competitions/fire-trail-nesselwang.svg"
-                  alt="Logo Fire Trail Nesselwang"
-                />
+                <img :src="c.logo" :alt="c.alt ?? 'Logo ' + c.name.join(' ')" />
               </figure>
 
-              <span>Fire Trail</span>
-              <span>Nesselwang</span>
-            </a>
-            <span class="tag mt-1 is-success">Sa, 10.10.26</span>
-          </div>
-          <div class="cell has-text-centered" style="justify-self: center">
-            <a href="//www.schachmatt-ulm.de">
-              <figure class="image is-128x128">
-                <img
-                  src="../assets/competitions/schachmatt-ulm.svg"
-                  alt="Logo Schachmatt Ulm"
-                />
-              </figure>
-
-              <span>Schachmatt</span>
-              <span>Ulm</span>
-            </a>
-            <span class="tag mt-1">Februar '27</span>
-          </div>
-          <div class="cell has-text-centered" style="justify-self: center">
-            <a href="//www.fire-trail-immenstadt.de">
-              <figure class="image is-128x128">
-                <img
-                  src="../assets/competitions/fire-trail-nesselwang.svg"
-                  alt="Logo Fire Trail Nesselwang"
-                />
-              </figure>
-
-              <span>Fire Trail</span>
-              <span>Immenstadt</span>
-            </a>
-            <span class="tag mt-1">Mai '27</span>
-          </div>
-          <div class="cell has-text-centered" style="justify-self: center">
-            <a href="//muensterturmlauf-ulm.gelungen.es">
-              <figure class="image is-128x128">
-                <img
-                  src="../assets/competitions/muensterturmlauf-ulm.svg"
-                  alt="Logo Münsterturmlauf Ulm"
-                />
-              </figure>
-
-              <span>Münsterturmlauf</span>
-              <span>Ulm</span>
-            </a>
-            <span class="tag mt-1 is-info">Sa, 19.06.27</span>
-          </div>
-          <div class="cell has-text-centered" style="justify-self: center">
-            <a href="//www.schachmatt-mannheim.de">
-              <figure class="image is-128x128">
-                <img
-                  src="../assets/competitions/schachmatt-ulm.svg"
-                  alt="Logo Schachmatt Ulm"
-                />
-              </figure>
-
-              <span>Schachmatt</span>
-              <span>Mannheim</span>
-            </a>
-            <span class="tag mt-1">Irgendwann '27</span>
-          </div>
-          <div class="cell has-text-centered" style="justify-self: center">
-            <a href="//www.munich-sunrise.de">
-              <figure class="image is-128x128">
-                <img
-                  src="../assets/competitions/munich-sunrise.svg"
-                  alt="Logo Munich Sunrise"
-                />
-              </figure>
-
-              <span>Munich</span>
-              <span>Sunrise</span>
-            </a>
-            <span class="tag mt-1">Auch wieder '27</span>
+              <span v-for="part in c.name" :key="part">{{ part }}</span>
+            </component>
+            <span class="tag mt-1" :class="c.tag">{{ c.date }}</span>
           </div>
         </div>
 
@@ -167,6 +98,57 @@
 </template>
 
 <script setup>
+import eskalation from "../assets/competitions/eskalation.svg";
+import fireTrail from "../assets/competitions/fire-trail-nesselwang.svg";
+import muensterturmlauf from "../assets/competitions/muensterturmlauf-ulm.svg";
+import munichSunrise from "../assets/competitions/munich-sunrise.svg";
+
+// in chronological order; tag: is-success = bestätigt, is-info = vorläufig, ohne = alles andere
+const competitions = [
+  {
+    name: ["Eskalation", "Frankfurt"],
+    url: "//www.eskalation-frankfurt.de",
+    logo: eskalation,
+    date: "Februar '27",
+  },
+  {
+    name: ["Fire Trail", "Immenstadt"],
+    url: "//www.fire-trail-immenstadt.de",
+    logo: fireTrail,
+    date: "Mai '27",
+  },
+  {
+    name: ["Münsterturmlauf", "Ulm"],
+    url: "//muensterturmlauf-ulm.gelungen.es",
+    logo: muensterturmlauf,
+    date: "Sa, 19.06.27",
+    tag: "is-info",
+  },
+  {
+    name: ["Eskalation", "Essen"],
+    url: "//www.eskalation-essen.de",
+    logo: eskalation,
+    date: "Sommer '27",
+  },
+  {
+    name: ["Munich", "Sunrise"],
+    url: "//www.munich-sunrise.de",
+    logo: munichSunrise,
+    date: "Auch wieder '27",
+  },
+  {
+    name: ["One Left", "Mannheim"],
+    logo: eskalation,
+    date: "Irgendwann '27",
+  },
+  {
+    name: ["Fire Trail", "Nesselwang"],
+    url: "//www.fire-trail-nesselwang.de",
+    logo: fireTrail,
+    date: "Oktober '27",
+  },
+];
+
 const { mail, event } = defineProps(["event", "mail"]);
 
 const mailAddress = computed(() =>
@@ -175,7 +157,7 @@ const mailAddress = computed(() =>
 </script>
 
 <style scoped>
-#events a span {
+#events .name span {
   display: block;
 }
 .competitions span {
