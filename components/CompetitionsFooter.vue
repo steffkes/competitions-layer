@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer p-0">
+  <footer class="footer p-0 kontakt-footer">
     <section class="section">
       <div class="container is-max-desktop">
         <div class="columns is-mobile">
@@ -32,8 +32,6 @@
       </div>
     </section>
   </footer>
-
-  <div class="trenner" aria-hidden="true"></div>
 
   <footer class="footer p-0">
     <section class="section">
@@ -155,16 +153,15 @@ const mailDomain = computed(() => mailAddress.value.split("@")[1]);
 </script>
 
 <style scoped>
+.kontakt-footer {
+  background: transparent;
+}
 .kontakt {
   display: inline-flex;
   gap: 0.4em;
 }
 .nowrap {
   white-space: nowrap;
-}
-.trenner {
-  height: 2px;
-  background: #dbdbdb;
 }
 #events .name span {
   display: block;
