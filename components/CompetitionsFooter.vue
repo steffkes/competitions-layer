@@ -10,9 +10,18 @@
             <p>Fragen? Anregungen? Presse. Sponsoring.</p>
             <p class="mt-4">
               <strong>Stefan Matheis</strong><br />
-              <a :href="'mailto:' + mailAddress">✉️ {{ mailAddress }}</a
+              <a :href="'mailto:' + mailAddress" class="kontakt"
+                ><span>✉️</span
+                ><span
+                  ><span class="nowrap">{{ mailLocal }}@</span><wbr /><span
+                    class="nowrap"
+                    >{{ mailDomain }}</span
+                  ></span
+                ></a
               ><br />
-              <a href="tel:004916097048114">📞 +49 160 970 48 114</a>
+              <a href="tel:004916097048114" class="kontakt"
+                ><span>📞</span><span>+49 160 970 48 114</span></a
+              >
             </p>
           </div>
         </div>
@@ -141,9 +150,18 @@ const { mail, event } = defineProps(["event", "mail"]);
 const mailAddress = computed(() =>
   (event?.organizer.email ?? mail).replace("mailto:", ""),
 );
+const mailLocal = computed(() => mailAddress.value.split("@")[0]);
+const mailDomain = computed(() => mailAddress.value.split("@")[1]);
 </script>
 
 <style scoped>
+.kontakt {
+  display: inline-flex;
+  gap: 0.4em;
+}
+.nowrap {
+  white-space: nowrap;
+}
 .trenner {
   height: 2px;
   background: #dbdbdb;
