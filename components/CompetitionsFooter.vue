@@ -59,36 +59,32 @@
           </div>
         </div>
 
-        <div class="columns is-flex-direction-row-reverse">
-          <div class="column">
-            <p class="competitions has-text-grey-light has-text-right">
-              … und alles begann 2023 mit dem
-              <a
-                href="//www.schanzenlauf-oberstdorf.de"
-                style="color: inherit; display: inline-block"
-              >
-                <img
-                  src="../assets/competitions/schanzenlauf-oberstdorf.svg"
-                  alt="Logo Schanzenlauf Oberstdorf"
-                  style="height: 16px"
-                />
-                Schanzenlauf Oberstdorf</a
-              >
+        <div class="hinweise">
+          <div class="hinweis">
+            <img :src="schachmatt" alt="" />
+            <p>
+              <a href="//www.schachmatt-ulm.de">Schachmatt Ulm</a>
+              findet nicht mehr statt.
+              <a href="//www.schachmatt-mannheim.de">Schachmatt Mannheim</a>
+              wird es nicht geben – dafür kommt One Left Mannheim.
             </p>
           </div>
-          <div class="column">
-            <p class="competitions has-text-grey-light has-text-right-mobile">
-              Gelistet bei
-              <a
-                href="//firefighter-competitions.gelungen.es"
-                style="color: inherit; display: inline-block"
+          <div class="hinweis">
+            <img :src="firefighterCompetitions" alt="" />
+            <p>
+              <a href="//firefighter-competitions.gelungen.es"
+                >Firefighter Competitions</a
               >
-                <img
-                  src="../assets/firefighter-competitions.svg"
-                  style="height: 16px"
-                />
-                Firefighter Competitions</a
-              >
+              – wo sich die Feuerwehr-Wettkampfszene trifft.
+            </p>
+          </div>
+          <div class="hinweis">
+            <img :src="schanzenlauf" alt="" />
+            <p>
+              Alles begann 2023 mit dem
+              <a href="//www.schanzenlauf-oberstdorf.de"
+                >Schanzenlauf Oberstdorf</a
+              >.
             </p>
           </div>
         </div>
@@ -102,6 +98,9 @@ import eskalation from "../assets/competitions/eskalation.svg";
 import fireTrail from "../assets/competitions/fire-trail-nesselwang.svg";
 import muensterturmlauf from "../assets/competitions/muensterturmlauf-ulm.svg";
 import munichSunrise from "../assets/competitions/munich-sunrise.svg";
+import schachmatt from "../assets/competitions/schachmatt-ulm.svg";
+import schanzenlauf from "../assets/competitions/schanzenlauf-oberstdorf.svg";
+import firefighterCompetitions from "../assets/firefighter-competitions.svg";
 
 // in chronological order; tag: is-success = bestätigt, is-info = vorläufig, ohne = alles andere
 const competitions = [
@@ -160,11 +159,35 @@ const mailAddress = computed(() =>
 #events .name span {
   display: block;
 }
-.competitions span {
-  display: block;
-  padding-top: 3px;
+.hinweise {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1.5rem;
+  display: grid;
+  gap: 0.75rem;
 }
-.competitions img {
+.hinweis {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: #9a9a9a;
+}
+.hinweis img {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin-top: 1px;
   filter: grayscale(1);
+  opacity: 0.6;
+}
+.hinweis a {
+  color: #6a6a6a;
+  text-decoration: underline;
+  text-decoration-color: #d0d0d0;
+  text-underline-offset: 2px;
+}
+.hinweis a:hover {
+  color: #363636;
 }
 </style>
