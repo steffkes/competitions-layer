@@ -1,6 +1,6 @@
 <template>
   <footer class="footer p-0 kontakt-footer">
-    <section class="section">
+    <section class="section" :class="{ 'pb-0': imprint }">
       <div class="container is-max-desktop">
         <div class="columns is-mobile">
           <div class="column is-4-mobile is-2-tablet">
@@ -31,6 +31,14 @@
         </p>
       </div>
     </section>
+
+    <div v-if="imprint" class="px-5">
+      <div class="container is-max-desktop">
+      <p class="has-text-right imprint">
+        <a :href="imprint" class="has-text-grey-light">Impressum</a>
+      </p>
+      </div>
+    </div>
   </footer>
 
   <footer class="footer p-0">
@@ -143,7 +151,7 @@ const competitions = [
   },
 ];
 
-const { mail, event } = defineProps(["event", "mail"]);
+const { mail, event, imprint } = defineProps(["event", "mail", "imprint"]);
 
 const mailAddress = computed(() =>
   (event?.organizer.email ?? mail).replace("mailto:", ""),
@@ -155,6 +163,9 @@ const mailDomain = computed(() => mailAddress.value.split("@")[1]);
 <style scoped>
 .kontakt-footer {
   background: transparent;
+}
+.imprint {
+  padding: 1.5rem 0 0.25rem;
 }
 .kontakt {
   display: inline-flex;
